@@ -20,3 +20,5 @@
 [MINA、Netty、Twisted一起学（十）：线程模型](http://xxgblog.com/2014/10/16/mina-netty-twisted-10/)
 
 [MINA、Netty、Twisted一起学（十一）：SSL/TLS](http://xxgblog.com/2017/02/27/mina-netty-twisted-11/)
+
+[MINA、Netty、Twisted一起学（十二）：HTTPS](http://xxgblog.com/2017/02/28/mina-netty-twisted-12/)
