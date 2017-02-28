@@ -6,7 +6,7 @@ from twisted.internet import reactor, ssl
 
 sslContext = ssl.DefaultOpenSSLContextFactory(
     '/Users/wucao/Desktop/ssl/private.pem',  # 私钥
-    '/Users/wucao/Desktop/ssl/cert.crt',  # 公钥
+    '/Users/wucao/Desktop/ssl/cert.crt',  # 证书
 )
 
 class TcpServerHandle(LineOnlyReceiver):
