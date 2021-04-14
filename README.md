@@ -22,3 +22,5 @@
 [MINA、Netty、Twisted一起学（十一）：SSL/TLS](http://xxgblog.com/2017/02/27/mina-netty-twisted-11/)
 
 [MINA、Netty、Twisted一起学（十二）：HTTPS](http://xxgblog.com/2017/02/28/mina-netty-twisted-12/)
+
+[基于 Netty 实现 WebSocket 服务器](https://xxgblog.com/2021/04/14/netty-websocket/)
