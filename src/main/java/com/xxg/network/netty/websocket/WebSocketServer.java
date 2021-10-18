@@ -54,6 +54,8 @@ class MyWebSocketServerHandler extends SimpleChannelInboundHandler<WebSocketFram
 
     @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) {
+
+        // 握手成功后触发该事件
         if (evt instanceof WebSocketServerProtocolHandler.HandshakeComplete) {
             WebSocketServerProtocolHandler.HandshakeComplete handshakeCompletedEvent = (WebSocketServerProtocolHandler.HandshakeComplete) evt;
             String uri = handshakeCompletedEvent.requestUri(); // 握手请求 URI
